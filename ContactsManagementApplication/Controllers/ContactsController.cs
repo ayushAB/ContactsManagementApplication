@@ -65,7 +65,7 @@ namespace ContactsManagementApplication.Controllers
             }
 
             await _contactService.UpdateContactAsync(contact);
-            return NoContent();
+            return Ok(contact);
         }
 
         [HttpDelete("{id}")]
