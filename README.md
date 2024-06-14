@@ -32,6 +32,22 @@ This is a simple Contact Management application built using .NET Core API with a
 - PUT: `/api/contacts/{id}` - Update an existing contact
 - DELETE: `/api/contacts/{id}` - Delete a contact
 
+## Running Test
+Running Tests with Visual Studio Test Explorer
+- Open your .NET Core solution in Visual Studio.
+
+- Build your solution (Ctrl + Shift + B) to ensure that all projects are up to date.
+
+- Open Test Explorer from the Visual Studio menu: Test > Test Explorer (Ctrl + E, T).
+
+- Test Explorer will automatically discover and display all unit tests in your solution.
+
+- Click the "Run All" button in Test Explorer to execute all tests.
+
+- Alternatively, you can run individual tests or groups of tests by selecting them in Test Explorer and clicking the "Run Selected Tests" button.
+
+- After running the tests, Test Explorer will display the test results, including passed, failed, and skipped tests. You can also see detailed information about each test by clicking on it in Test Explorer.
+
 ## Technologies Used
 
 - .NET Core 8.0
