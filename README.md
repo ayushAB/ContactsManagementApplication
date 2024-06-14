@@ -14,12 +14,10 @@ This is a simple Contact Management application built using .NET Core API with a
 ## Running the Application
 
 1. Open the solution file `ContactManagement.sln` in Visual Studio or your preferred IDE.
-
 2. Set the startup project to `ContactManagement.API`.
-
 3. Press F5 or click on the Run button to start the API.
-
-4. The API will start running on `https://localhost:44356` (HTTPS) by default.
+4. The API will start running on `https://localhost:44356` (HTTPS) by default if selected IIS Express.
+5. The API will start running on `https://localhost:7145` (HTTPS) by default if selected Https.
 
 ## Testing the API
 
